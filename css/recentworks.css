@@ -1,0 +1,108 @@
+.rw-maindiv {
+    position: relative;
+    display: block;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    float: none;
+    margin-top: 450px;
+}
+
+@media only screen and (max-width: 1124px) {
+    .rw-maindiv {
+        margin-top: 0px;
+    }
+}
+
+/*Recent works title*/
+
+.rw-titlediv {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.rw-title {
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    line-height: 5px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.rw-ultitle {
+    background-color: #ed2b33;
+    height: 5px;
+    width: 100px;
+    justify-content: center;
+    border: none;
+}
+
+
+/*Recent works Categ Divs*/
+
+.rw-categsmain {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+}
+
+.rw-categdiv {
+    float: left;
+    position: relative;
+    display: block;
+    justify-content: center;
+    padding: 25px;
+    margin: 25px;
+}
+
+@media only screen and (max-width: 1124px) {
+    .rw-categsmain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .rw-categdiv {
+        justify-content: center;
+    }
+}
+
+.img-rwcateg {
+    height: 325px;
+    width: 260px;
+}
+
+.txt-rwcategdiv {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.title-rwcateg {
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.subhead-rwcateg {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 1124px) {
+    .txt-rwcategdiv {
+        text-align: center;
+    }
+}

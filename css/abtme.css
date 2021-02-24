@@ -1,0 +1,129 @@
+.abtme-maindiv {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 1124px) {
+    .abtme-maindiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/*About me Image div*/
+
+.abtme-imgdiv {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.abtme-img {
+    height: 450px;
+    width: 375px;
+}
+
+@media only screen and (max-width: 1124px) {
+    .abtme-imgdiv {
+        float: none;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .abtme-img {
+        height: 325px;
+        width: 275px;
+        justify-content: center;
+    }
+}
+
+/*About me Text Div*/
+
+.abtme-txtdiv {
+    text-align: left;
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 25px;
+}
+
+.abtme-titlediv {
+    margin-bottom: 25px;
+    text-align: left;
+    justify-content: left;
+}
+
+.abtme-title {
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.abtme-paradiv {
+    margin-bottom: 20px;
+}
+
+.abtme-ultitle {
+    background-color: #ed2b33;
+    height: 5px;
+    border: none;
+    width: 100px;
+}
+
+.abtme-para {
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    width: 500px;
+}
+
+@media only screen and (max-width: 1124px) {
+    .abtme-txtdiv {
+        float: none;
+        text-align: center;
+        justify-content: center;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .abtme-titlediv  {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .abtme-ultitle {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .abtme-para {
+        width: auto;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+/*SocMedia Icons*/
+
+.socmedia-a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.socmedia-aimg {
+    height: 38px;
+    width: 38px;
+    transition: 0.4s;
+}
+.socmedia-aimg:hover {
+    height: 38px;
+    width: 38px;
+}

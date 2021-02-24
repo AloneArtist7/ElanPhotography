@@ -1,0 +1,40 @@
+.gudphoto-maindiv {
+    display: block;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.gp-title {
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.gp-txt {
+    font-size: 22px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 500;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 1124px) {
+    .gp-txt {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 21px;
+    }
+}

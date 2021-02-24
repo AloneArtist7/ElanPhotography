@@ -1,0 +1,139 @@
+.end-maindiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    flex: 1;
+    background-color: black;
+}
+
+@media only screen and (max-width: 1124px) {
+    .end-maindiv {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/*Ending Creator Div*/
+
+.end-creatordiv {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 25px;
+}
+
+.end-creatorimg {
+    height: 150px;
+    width: 200px;
+    position: relative;
+}
+
+.end-creatortitle {
+    font-size: 26px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.end-creatorlink {
+    padding: 5px;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #FF1744, #304FFE);
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.end-creatorlink:hover {
+    font-size: 23px;
+    box-shadow: 2px 2px 5px #111111;
+}
+
+@media only screen and (max-width: 1124px) {
+    .end-creatordiv {
+        margin-top: 25px;
+    }
+}
+
+/*Ending Contact Div*/
+
+.end-qlinkdiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.end-creatorrtitle {
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 5px;
+    letter-spacing: 2%;
+    text-decoration: none;
+    transition: 0.4s;
+    opacity: 95%;
+}
+.end-creatorrtitle:hover {
+    font-size: 26px;
+    text-decoration: underline;
+    opacity: 100%;
+}
+
+@media only screen and (max-width: 1124px) {
+    .end-cntctdiv {
+        margin-top: 25px;
+    }
+}
+
+/*Ending IG Posts Div*/
+
+.end-igpostscategsdiv {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.end-igpostsone {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    position: relative;
+}
+
+.end-igpoststwo {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    position: relative;
+}
+
+.end-igpostsimg {
+    height: 100px;
+    width: 85px;
+    margin: 5px;
+}
+
+.end-cntcttitle {
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 1124px) {
+    .end-igpostsdiv {
+        margin-top: 25px;
+    }
+}

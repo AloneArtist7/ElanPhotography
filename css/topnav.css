@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #111111;
+}
+
+
+/*TopNav*/
+
+.top-mainnav {
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+    position: fixed;
+    z-index: 600;
+    top: 0;
+}
+
+
+/*For LOGO*/
+
+.top-logodiv {
+    position: relative;
+    margin-left: 2%;
+    float: left;
+    margin-top: 10px;
+}
+
+.topnav-logo {
+    height: 65px;
+    width: 230px;
+    padding: 10px;
+}
+
+
+/*For Links*/
+
+.top-linksdiv {
+    float: right;
+    margin-right: 2%;
+}
+
+.top-linksul {
+    padding: 10px;
+    line-height: 50px;
+}
+
+.li-links {
+    display: inline-block;
+}
+
+.a-links {
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #111111;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.a-links:hover {
+    font-size: 21px;
+    background-color: #111111;
+    color: white;
+}
+
+.a-linkscta {
+    font-size: 22px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 15px;
+    color: white;
+    background-color: #ed2b33;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-weight: 600;
+}
+.a-linkscta:hover {
+    font-size: 23px;
+    box-shadow: 1px 1px 2px black;
+}
+
+
+/*For Responsive Nav*/
+
+#btn, #cancel {
+    font-size: 30px;
+    color: #111111;
+    float: right;
+    margin-right: 30px;
+    line-height: 75px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+/*For Responsive Navbar*/
+
+@media only screen and (max-width: 1124px) {
+
+    #btn {
+        display: block;
+        line-height: 100px;
+    }
+
+    .top-linksdiv {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: 0;
+        top: 100px;
+        text-align: center;
+        background-color: white;
+        visibility: collapse;
+        z-index: 500;
+    }
+
+    .li-links {
+        display: block;
+        margin: 30px;
+    }
+
+    #check:checked ~ .top-linksdiv {
+        visibility: visible;
+    }
+}
