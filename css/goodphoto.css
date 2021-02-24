@@ -31,7 +31,7 @@
     margin-top: 25px;
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 768px) {
     .gp-txt {
         margin-left: 5%;
         margin-right: 5%;

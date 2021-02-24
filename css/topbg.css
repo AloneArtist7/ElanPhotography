@@ -7,7 +7,7 @@
     padding-bottom: 75px;
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 768px) {
     .top-bgdiv {
         padding-top: 100px;
         justify-content: center;
@@ -34,7 +34,7 @@
     position: relative;
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 768px) {
 
     .top-bgimgdiv {
         position: relative;
@@ -77,7 +77,7 @@
     font-weight: 500;
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 768px) {
     
     .top-bgtxtdiv {
         margin-top: 50px;
@@ -121,7 +121,7 @@
     box-shadow: 1px 1px 2px black;
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 768px) {
 
     .li-linksctaa {
         display: block;

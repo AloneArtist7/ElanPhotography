@@ -7,7 +7,7 @@
     margin-top: 450px;
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 768px) {
     .rw-maindiv {
         margin-top: 0px;
     }
@@ -60,7 +60,7 @@
     margin: 25px;
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 768px) {
     .rw-categsmain {
         display: flex;
         flex-direction: column;
@@ -101,7 +101,7 @@
     margin-top: 0px;
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 768px) {
     .txt-rwcategdiv {
         text-align: center;
     }

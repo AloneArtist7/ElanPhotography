@@ -61,7 +61,7 @@
     padding-top: 15px;
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 768px) {
     .planps-categ-maindiv {
         display: flex;
         flex-direction: column;

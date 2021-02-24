@@ -9,7 +9,7 @@
     background-color: black;
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 768px) {
     .end-maindiv {
         flex-direction: column;
         justify-content: center;
@@ -58,7 +58,7 @@
     box-shadow: 2px 2px 5px #111111;
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 768px) {
     .end-creatordiv {
         margin-top: 25px;
     }
@@ -89,7 +89,7 @@
     opacity: 100%;
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 768px) {
     .end-cntctdiv {
         margin-top: 25px;
     }
@@ -132,7 +132,7 @@
     margin-bottom: 5px;
 }
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 768px) {
     .end-igpostsdiv {
         margin-top: 25px;
     }
