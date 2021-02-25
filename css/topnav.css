@@ -101,7 +101,7 @@ body {
 
 /*For Responsive Navbar*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1124px) {
 
     #btn {
         display: block;

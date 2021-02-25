@@ -5,6 +5,7 @@
     padding-top: 100px;
     position: relative;
     padding-bottom: 75px;
+    width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -32,6 +33,7 @@
     justify-content: center;
     filter: contrast(87%);
     position: relative;
+    float: left;
 }
 
 @media only screen and (max-width: 768px) {
@@ -46,6 +48,7 @@
     .top-bgimg {
         height: 350px;
         width: 275px;
+        float: none;
     }
 
 }
@@ -55,9 +58,9 @@
 
 .top-bgtxtdiv {
     margin-top: 100px;
-    float: left;
-    margin-left: 10%;
+    margin-right: 10%;
     position: relative;
+    float: right;
 }
 
 .top-bgtitle {
@@ -84,8 +87,7 @@
         float: none;
         margin-left: 0;
         text-align: center;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-right: 0;
     }
 
     .top-bgtitle {
