@@ -73,12 +73,13 @@
 
     .rw-categdiv {
         justify-content: center;
+        margin: 20px;
     }
 }
 
 .img-rwcateg {
     height: 325px;
-    width: 260px;
+    width: 250px;
 }
 
 .txt-rwcategdiv {

@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #111111;
+    scroll-behavior: smooth;
 }
 
 
@@ -29,8 +30,8 @@ body {
 }
 
 .topnav-logo {
-    height: 65px;
-    width: 230px;
+    height: 55px;
+    width: 210px;
     padding: 10px;
 }
 
@@ -53,7 +54,7 @@ body {
 
 .a-links {
     padding: 15px;
-    font-size: 20px;
+    font-size: 19px;
     font-family: 'Open Sans Condensed', sans-serif;
     color: #111111;
     font-weight: 600;
@@ -61,7 +62,7 @@ body {
     transition-duration: 0.4s;
 }
 .a-links:hover {
-    font-size: 21px;
+    font-size: 20px;
     background-color: #111111;
     color: white;
 }

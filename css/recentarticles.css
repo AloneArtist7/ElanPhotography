@@ -42,6 +42,7 @@
     position: relative;
     justify-content: center;
     margin-top: 30px;
+    padding: 25px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -103,7 +104,7 @@
 }
 
 .ra-onepara {
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 500;
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
