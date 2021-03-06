@@ -25,12 +25,14 @@
     flex-direction: column;
     position: relative;
     margin: 25px;
+    justify-content: center;
 }
 
 .end-creatorimg {
     height: 150px;
     width: 200px;
     position: relative;
+    justify-content: center;
 }
 
 .end-creatortitle {
@@ -108,6 +110,7 @@
     position: relative;
     flex-direction: column;
     margin: 25px;
+    justify-content: center;
 }
 
 .end-igpostsone {
